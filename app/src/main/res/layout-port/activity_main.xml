@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:background="#ff4db5ff">
+
+    <TextView
+        style="@style/ContentTitleTextView"
+        android:id="@+id/textView"/>
+
+    <Button
+        style="@style/CourseButtonPort"
+        android:text="@string/spotify_title"
+        android:id="@+id/button"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="45dp"
+/>
+
+    <Button
+        style="@style/CourseButtonPort"
+        android:text="@string/scores_title"
+        android:id="@+id/button2"
+        android:layout_below="@+id/button"
+ />
+
+    <Button
+        style="@style/CourseButtonPort"
+        android:text="@string/library_title"
+        android:id="@+id/button3"
+        android:layout_below="@+id/button2"
+/>
+
+    <Button
+        style="@style/CourseButtonPort"
+        android:text="@string/build_it_title"
+        android:id="@+id/button4"
+        android:layout_below="@+id/button3"
+/>
+
+    <Button
+        style="@style/CourseButtonPort"
+        android:text="@string/xyz_title"
+        android:id="@+id/button5"
+        android:layout_below="@+id/button4" />
+
+    <Button
+        style="@style/CourseButtonPortBottom"
+        android:text="@string/capstone_title"
+        android:id="@+id/button6"
+        android:layout_below="@+id/button5" />
+
+
+</RelativeLayout>
